@@ -1,0 +1,89 @@
+.login {
+    background-color: rgb(243, 242, 242);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 476px;
+    flex-direction: column;
+    height: 445px;
+    border-radius: 30px;
+}
+
+.login-cart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login-cart img {
+    margin-block: 20px;
+}
+
+.login-info {
+    margin-block: 20px;
+    color: grey;
+}
+
+.login-cart-item input {
+    width: 400px;
+    height: 40px;
+    margin-block: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.login-cart-item button {
+    background-color: rgb(237, 232, 232);
+    width: 400px;
+    height: 45px;
+    margin-block: 15px;
+    border: none;
+    border-radius: 10px;
+    color: grey;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.6s;
+}
+.login-cart-item button:hover{
+    background-color: rgb(241, 239, 239);
+    transition: 0.6s;
+}
+@media(max-width:500px){
+    .login-cart{
+        width: 350px;
+        height: 330px;
+    }
+    .login-cart img{
+        width: 100px;
+        margin-top: 30px;
+    }
+    .login-info {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .login-cart-item input {
+        width: 300px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .login-cart-item h2{
+        font-size: 17px;
+        margin-top: 0px;
+    }
+    .login-cart-item button {
+        width: 300px;
+        height: 35px;
+        margin-top: -10px;
+    }
+
+}
