@@ -64,6 +64,12 @@
     }
 }
 
+@media(max-width:768px) {
+    .carousel-image {
+        width: 90px;
+    }
+}
+
 @media(max-width:500px) {
     .carousel {
         height: 100px;
@@ -72,10 +78,23 @@
     .carousel-image {
         width: 70px;
     }
-    .carousel-arrow-left{
+
+    .carousel-arrow-left {
         display: none;
     }
-    .carousel-arrow-right{
+
+    .carousel-arrow-right {
         display: none;
     }
+}
+
+@media(max-width:320px) {
+    .carousel {
+        height: 100px;
+    }
+
+    .carousel-image {
+        width: 45px;
+    }
+
 }
