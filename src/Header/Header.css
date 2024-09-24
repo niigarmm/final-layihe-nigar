@@ -25,6 +25,10 @@
 .heart,.bag {
     width: 25px;
 }
+
+.hidden-category{
+    display: none;
+}
 .bag{
     margin-bottom: 5px;
 }
