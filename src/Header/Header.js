@@ -6,7 +6,7 @@ import userIcon from "../Image/icons8-user-100.png";
 import heartIcon from "../Image/icons8-heart-100.png";
 import shopBag from "../Image/icons8-shopping-cart-100.png";
 import arrow from "../Image/icons8-expand-arrow-50 (1).png";
-import category from "../Image/category.png"
+import category from "../Image/category.png";
 import { Link } from "react-router-dom";
 
 const categories = [

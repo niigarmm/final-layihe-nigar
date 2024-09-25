@@ -9,13 +9,17 @@ import pinkHeart from "../Image/pink-heart.png";
 import Smile from "../Image/smile.png";
 import pinkStar from "../Image/pink-star.png";
 import Carousel from "../Carousel/Carousel";
-import {slides} from "../data/Data";
-import Footer from "../Footer/Footer"
+import { slides } from "../data/Data";
+import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
 export default function LearnMore() {
   return (
     <>
       <div className="upper-part">
-        <img src={KawaiiLogo} alt="" />
+        <Link to = "/">
+          <img src={KawaiiLogo} alt="" />
+        </Link>
+
         <div className="menu">
           <p>Subscribe</p>
           <p>What's In My Box</p>
@@ -111,8 +115,11 @@ export default function LearnMore() {
         </div>
       </div>
       <h2 className="text">WHAT'S IN YOUR BOX?</h2>
-      <p className="check">Check out what kind of super cute stuff & authentic kawaii characters we include in each kawaii subscription box!</p>
-      <Carousel images = {slides}/>
+      <p className="check">
+        Check out what kind of super cute stuff & authentic kawaii characters we
+        include in each kawaii subscription box!
+      </p>
+      <Carousel images={slides} />
       <Footer />
     </>
   );
