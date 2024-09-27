@@ -5,6 +5,8 @@ import Favorite from "../src/Favorites/Favorites";
 import { useState } from "react";
 import Login from "./Login/Login"
 import LearnMore from "../src/LearnMore/LearnMore";
+import ProductInfo from "./ProductInfo/ProductInfo"
+
 
 function App() {
   const [favorites, setFavorites] = useState([]);
@@ -19,7 +21,7 @@ function App() {
     {
       id: 2,
       photo:
-        "https://www.blippo.com/cdn/shop/files/20240821-146_900x.jpg?v=1724651243",
+        "https://www.blippo.com/cdn/shop/files/20240821-192_300x.jpg?v=1724397168",
       desc: "Sweet Sakura Tea - Cherry Blossoms",
       price: 8.9,
     },
@@ -81,16 +83,15 @@ function App() {
     },
   ];
   return (
-    //  <Provider store={store}>
      <BrowserRouter>
        <Routes>
        <Route path="/" element={<Home productArray={productArray} favorites={favorites} setFavorites={setFavorites} />} />
        <Route path="/favorites" element={<Favorite favorites={favorites} productArray={productArray} />} />
        <Route path="/login" element={<Login />} />
        <Route path="/learn-more" element={<LearnMore />} />
+       <Route path="/product-info/:id" element={<ProductInfo productArray={productArray} />} />
        </Routes>
      </BrowserRouter>
-  //  </Provider>
   );
 }
 

@@ -61,20 +61,20 @@ export default function Home({ productArray, favorites, setFavorites }) {
           <img src={present} alt="" className="present" />
           <p>Reward</p>
         </div>
-        <div className="product-div">
-          {productArray.map((products) => (
-            <Product
-              key={products.id}
-              product={products}
-              photo={products.photo}
-              desc={products.desc}
-              price={products.price}
-              id={products.id}
-              isFavorite={favorites.includes(products.id)}
-              toggleFavorite={toggleFavorite}
-            />
-          ))}
-        </div>
+          <div className="product-div">
+            {productArray.map((products) => (
+              <Product
+                key={products.id}
+                product={products}
+                photo={products.photo}
+                desc={products.desc}
+                price={products.price}
+                id={products.id}
+                isFavorite={favorites.includes(products.id)}
+                toggleFavorite={toggleFavorite}
+              />
+            ))}
+          </div>
         <div className="last-part">
           <div className="last-part-items">
             <img src={img} alt="" className="img" />

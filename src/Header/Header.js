@@ -176,7 +176,10 @@ export default function Header() {
         <div className="hidden-category">
           <img src={category} alt="" className="category-img" />
         </div>
-        <img src={logo} alt="logo" className="logo" />
+        <Link to="/">
+          <img src={logo} alt="logo" className="logo" />
+        </Link>
+
         <div className="shopping-icon">
           <Link to="/login">
             <img src={userIcon} alt="user icon" className="user" />
