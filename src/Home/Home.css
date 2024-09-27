@@ -276,7 +276,7 @@
     .hidden-filter{
         display: flex;
         margin-left: 40px;
-        width: 100%;
+        padding: 20px;
     }
     .last-part-items {
         width: 50%;
@@ -307,7 +307,7 @@
         width: 90%;
     }
     .featured{
-        font-size: 50%;
+        font-size: 100%;
     }
 
     .series,
@@ -320,7 +320,7 @@
         display: flex;
         margin-right: 10px;
         margin-left: 40px;
-        width: 100%;
+        padding: 20px;
     }
     .last-part-items {
         width: 40%;
