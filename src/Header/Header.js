@@ -164,7 +164,7 @@ export default function Header() {
   };
 
   return (
-    <>
+    <div className="header">
       <div className="pink-part">
         <p>✨ Free Shipping US$50+ ✨</p>
       </div>
@@ -204,6 +204,6 @@ export default function Header() {
         </div>
         <div className="purple-part">💖 Get a FREE Kawaii Bottle! 💖</div>
       </div>
-    </>
+    </div>
   );
 }

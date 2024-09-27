@@ -54,7 +54,6 @@ export default function Home({ productArray, favorites, setFavorites }) {
               <p className="sort">Sort by</p>
               <p className="featured">Featured</p>
             </div>
-
             <img src={arrow} alt="" className="arrow" />
           </div>
         </div>

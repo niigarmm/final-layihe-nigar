@@ -1,5 +1,6 @@
 .home {
     margin-top: 30px;
+    width: 100%;
 }
 
 .new-stuff {
@@ -14,7 +15,7 @@
     font-size: 17px;
     font-weight: 300;
     text-align: center;
-    width: 750px;
+    width: 80%;
     color: grey;
     margin: auto;
     margin-top: 30px;
@@ -44,7 +45,6 @@
     align-items: center;
     justify-content: space-around;
     border: 1px solid rgb(189, 189, 189);
-    width: 190px;
     height: 50px;
     border-radius: 8px;
     margin-left: 20px;
@@ -57,29 +57,38 @@
     color: rgb(111, 111, 111);
     font-weight: 600;
     font-size: 17px;
+    margin-right: 5px;
 }
-
+.series{
+    width: 90%;
+    padding: 10px;
+}
+.manufacturer{
+    padding: 10px;
+}
 .brand,
 .category-div {
-    width: 130px;
+    padding: 10px;
 }
 
 .manufacturer {
-    width: 150px;
+    width: 60%;
 }
 
 .arrow {
     width: 13px;
 }
-
+.filter-part{
+    width: 100%;
+}
 .right-part {
     margin-right: 30px;
     border: 1px solid;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 180px;
     height: 50px;
+    padding: 20px;
     border: 1px solid rgb(189, 189, 189);
     border-radius: 8px;
 }
@@ -87,7 +96,6 @@
 .featured {
     color: rgb(111, 111, 111);
     font-weight: 600;
-    font-size: 17px;
 }
 
 .sort {
@@ -137,20 +145,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .img {
-    width: 600px;
+    width: 46%;
+    height: 382px;
 }
 
 .left-part-items {
     background: linear-gradient(160deg, rgba(255, 241, 252, 1) 10%, rgba(234, 249, 255, 1) 88%);
-    height: 395px;
+    height: 382px;
     border-radius: 0 30px 30px 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 560px;
+    width: 50%;
     justify-content: center;
 }
 
@@ -163,7 +173,7 @@
 
 .left-part-items p {
     margin-top: 20px;
-    width: 450px;
+    width: 50%;
     font-size: 18px;
     color: grey;
     margin-left: 50px;
@@ -199,13 +209,15 @@
     display: none;
 }
 @media(max-width:950px) {
+    .filter-part{
+        width: 100%;
+    }
     .left-part-items {
-        width: 460px;
-        height: 263px;
+        width: 50%;
     }
 
     .img {
-        width: 400px;
+        width: 45%;
     }
 
     .left-part-items h1 {
@@ -214,13 +226,12 @@
 
     .left-part-items p {
         font-size: 15px;
-        width: 400px;
+        width: 70%;
     }
 }
 @media(max-width:768px) {
     .left-part-items {
         width: 300px;
-        height: 230px;
     }
 
     .img {
@@ -234,19 +245,28 @@
 
     .left-part-items p {
         font-size: 12px;
-        width: 300px;
+        width: 60%;
         margin-left: 10px;
     }
     .left-part-items button{
         margin-left: 10px;
     }
+    .series p,.manufacturer p,.brand p,.category-div p,.featured,.sort{
+        font-size: 10px;
+    }
+    .arrow{
+        width: 10px;
+        margin-left: 5px;
+    }
 
 }
 @media(max-width:500px) {
     .discover {
-        width: 400px;
+        width: 80%;
     }
-
+    .filter-part{
+        width: 100%;
+    }
     .series,
     .manufacturer,
     .brand,
@@ -256,22 +276,21 @@
     .hidden-filter{
         display: flex;
         margin-left: 40px;
-        width: 180px;
+        width: 100%;
     }
     .last-part-items {
-        width: 160px;
-        height: 198px;
+        width: 50%;
         display: flex;
         flex-direction: column;
         margin-top: 80px;
         height: 600px;
     }
     .img {
-        width: 400px;
+        width: 160%;
         border-radius: 0px 15px 0 15px;
     }
     .left-part-items{
-        width: 400px;
+        width: 160%;
         border-radius: 15px 0px 15px 15px;
     }
     .left-part-items h1 {
@@ -280,12 +299,15 @@
     }
     .left-part-items p{
         font-size: 13px;
-        width: 300px;
+        width: 90%;
     }
 }
 @media(max-width:320px) {
     .discover {
-        width: 300px;
+        width: 90%;
+    }
+    .featured{
+        font-size: 50%;
     }
 
     .series,
@@ -298,21 +320,21 @@
         display: flex;
         margin-right: 10px;
         margin-left: 40px;
-        width: 100px;
+        width: 100%;
     }
     .last-part-items {
-        width: 160px;
+        width: 40%;
         display: flex;
         flex-direction: column;
         margin-top: 80px;
         height: 600px;
     }
     .img {
-        width: 300px;
+        width: 245%;
         border-radius: 0px 15px 0 15px;
     }
     .left-part-items{
-        width: 300px;
+        width: 245%;
         border-radius: 15px 0px 15px 15px;
     }
     .left-part-items h1 {
@@ -321,7 +343,7 @@
     }
     .left-part-items p{
         font-size: 12px;
-        width: 250px;
+        width: 70%;
         margin-left: 20px;
     }
     .left-part-items button{
