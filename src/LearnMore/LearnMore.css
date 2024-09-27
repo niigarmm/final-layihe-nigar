@@ -148,7 +148,7 @@
 
 .tastebanner {
     background-color: #ffdded;
-    height: 490px;
+    
     margin-bottom: 50px;
     display: flex;
 }
@@ -218,7 +218,6 @@
 
     .tastebanner {
         width: 100%;
-        height: 400px;
     }
 
     .pink-heart,
@@ -261,7 +260,6 @@
     }
     .tastebanner {
         width: 100%;
-        height: 400px;
     }
   
     .pink-heart,
@@ -373,7 +371,6 @@
 
     .tastebanner {
         width: 100%;
-        height: 400px;
     }
 
     .pink-heart,
@@ -410,7 +407,6 @@
     }
     .tastebanner{
         flex-direction: column;
-        height: 700px;
     }
 
 }
@@ -465,7 +461,6 @@
 
     .tastebanner {
         width: 100%;
-        height: 350px;
     }
 
     .pink-heart,
@@ -504,7 +499,6 @@
     }
     .tastebanner{
         flex-direction: column;
-        height: 600px;
     }
     .text{
         font-size: 20px;
