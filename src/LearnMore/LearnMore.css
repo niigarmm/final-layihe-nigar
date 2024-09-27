@@ -7,7 +7,7 @@
 }
 
 .upper-part img {
-    width: 200px;
+    width: 100%;
 }
 
 .menu {
@@ -42,7 +42,6 @@
 }
 
 .homepage-introbox h1 {
-    width: 600px;
     font-weight: 900;
     font-size: 50px;
     margin-left: 50px;
@@ -50,7 +49,6 @@
 }
 
 .homepage-introbox h3 {
-    width: 600px;
     font-weight: 900;
     font-size: 30px;
     margin-top: -10px;
@@ -59,7 +57,7 @@
 }
 
 .homepage-introbox p {
-    width: 500px;
+    width: 45%;
     font-weight: 900;
     font-size: 20px;
     margin-top: 30px;
@@ -143,7 +141,7 @@
 
 .laure-comment {
     color: grey;
-    width: 230px;
+    width: 25%;
     letter-spacing: 1px;
     margin-left: 40px;
 }
@@ -156,8 +154,8 @@
 }
 
 .second-bg {
-    width: 590px;
-    height: 420px;
+    width: 50%;
+    height: 400px;
     margin-left: -20px;
 }
 
@@ -184,7 +182,7 @@
 .pink-star p,
 .pink-smile p {
     color: grey;
-    width: 450px;
+    width: 60%;
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -192,7 +190,7 @@
 .pink-heart img,
 .pink-star img,
 .pink-smile img {
-    width: 70px;
+    width: 10%;
     height: 65px;
 }
 
@@ -213,7 +211,7 @@
 
 @media(max-width:950px) {
     .second-bg {
-        width: 400px;
+        width: 40%;
         height: 300px;
         margin-left: 20px;
     }
@@ -241,7 +239,7 @@
     .pink-heart p,
     .pink-star p,
     .pink-smile p {
-        width: 350px;
+        width: 90%;
         font-size: 14px;
     }
 
@@ -282,11 +280,15 @@
         margin-left: 10px;
         margin-top: 0px;
     }
-
+    .second-bg{
+        width: 40%;
+        height: 200px;
+        margin-top: 70px;
+    }
     .pink-heart p,
     .pink-star p,
     .pink-smile p {
-        width: 250px;
+        width: 70%;
         font-size: 12px;
     }
 
@@ -313,7 +315,7 @@
 }
 @media(max-width:500px) {
     .homepage-introbox h1 {
-        width: 250px;
+        width: 60%;
         font-size: 30px;
         margin-left: 20px;
     }
@@ -334,7 +336,7 @@
         flex-direction: column;
     }
     .homepage-introbox h3 {
-        width: 300px;
+        width: 40%;
         font-weight: 900;
         font-size: 20px;
         margin-top: 10px;
@@ -364,9 +366,9 @@
     }
 
     .second-bg {
-        width: 400px;
+        width: 80%;
         height: 300px;
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     .tastebanner {
@@ -392,19 +394,19 @@
     .pink-heart p,
     .pink-star p,
     .pink-smile p {
-        width: 350px;
+        width: 80%;
         font-size: 14px;
     }
 
     .pink-heart img,
     .pink-star img,
     .pink-smile img {
-        width: 40px;
-        height: 35px;
+        width: 20%;
+        height: 45px;
     }
 
     .pink-smile img {
-        height: 40px;
+        height: 55px;
     }
     .tastebanner{
         flex-direction: column;
